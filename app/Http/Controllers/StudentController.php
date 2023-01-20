@@ -10,6 +10,9 @@ class StudentController extends Controller
         $students = Student::all();
         return view ('students.index')->with('students', $students);
     }
+
+
+    
  
     
     public function create()
